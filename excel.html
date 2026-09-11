@@ -322,25 +322,21 @@ function fnSetActiveSheet(iSh)
 
 </head>
 
-<body>
-  <header>
-    <div class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <div class="dropdown">
-        <button class="dropbtn"><a href="projects.html">Projects</a>
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="powerbi.html">Power BI</a>
-          <a href="excel.html">Excel</a>
-        </div>
+  <body>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+      <div class="dropdown-content">
+        <a href="excel.html">Project: Excel</a>
+        <a href="powerbi.html">Project: Power BI</a>
       </div>
-    </div>
-  </header>
-
-  <h1>Excel</h1>
-
+      </li>
+    </ul>
+    
+    <h1 class="fancy"><span>Project: Excel</span></h1>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
  <frame src="Excel%20Project_files/sheet002.html" name="frSheet">
