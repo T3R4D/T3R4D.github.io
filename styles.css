@@ -5,6 +5,7 @@ body {
 .navbar {
     overflow: hidden;
     background-color: #333;
+    height: 41px;
 }
 
 .navbar a {
@@ -33,7 +34,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #E32D91;
 }
 
 .dropdown-content {
@@ -55,7 +56,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #F3ABD3;
 }
 
 .dropdown:hover .dropdown-content {
