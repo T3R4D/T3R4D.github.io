@@ -34,7 +34,7 @@ section
   border-bottom: 4px solid #19320C;
   border-top: 4px solid #19320C;
   top: 0;
-  width: 60%;
+  width: 100%;
 }
 .fancy span:before {
   right: 100%;
