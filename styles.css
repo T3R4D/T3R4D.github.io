@@ -4,12 +4,12 @@ body {
   font-family: Sans-Serif;
 }
 h1 {
+  margin: 10px;
   text-align: center;
   margin-top: 1rem;
 }
-
-h2 {
-  text-align: center;
+p, div {
+  margin: 10px;
 }
 
 
@@ -39,6 +39,8 @@ h2 {
   left: 100%;
   margin-left: 15px;
 }
+
+/*** NAVBAR**/
 
 ul {
   list-style-type: none;
