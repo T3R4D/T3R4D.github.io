@@ -3,16 +3,16 @@ body {
   padding: 0;
   font-family: Sans-Serif;
 }
-
-h2, p {
-  margin: 10px;
-}
-
 h1 {
   text-align: center;
   margin-top: 1rem;
-
 }
+
+h2 {
+  text-align: center;
+}
+
+
 .fancy {
   line-height: 0.25;
   text-align: center;
@@ -105,4 +105,32 @@ img {
   display: block;
   margin: auto;
   width: 80%;
+}
+
+/** GALLERY **/
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
 }
