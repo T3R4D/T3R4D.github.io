@@ -120,7 +120,7 @@ div.gallery {
 div.gallery-item {
   margin: 5px;
   border: 1px solid #ccc;
-  width: 20%;
+  width: 360px;
 }
 
 div.gallery-item:hover {
